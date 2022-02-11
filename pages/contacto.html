@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - OldSkool</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Spline+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img class="header__img" src="../assets/logo.png" alt="Logo">
+        <nav class="header__nav">
+            <ul>
+                <li class="nav__item"><a class="nav__link" href="../index.html">INICIO</a></li>
+                <li class="nav__item"><a class="nav__link" href="productos.html">PRODUCTOS</a></li>
+                <li class="nav__item"><a class="nav__link" href="nosotros.html">NOSOTROS</a></li>
+                <li class="nav__item"><a class="nav__link" href="preguntas.html">AYUDA</a></li>
+                <li class="nav__item"><a class="nav__link" href="marcas.html">MARCAS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2 class="section__title">CONTACTO</h2>
+            <div class="contenedor__form">
+                <form action="" method="get" enctype="text/plain">
+                    <label label for="info-personal"></label>
+                    <input class="form__input" type="text" name="userName" id="info-personal" placeholder="Nombre">
+
+                    <label for="info-personal"></label>
+                    <input class="form__input" type="text" name="userLastName" id="info-personal" placeholder="Apellido">
+
+                    <label for="mail"></label>
+                    <input class="form__input" type="email" name="userEmail" id="mail" placeholder="Email">
+
+                    <label for="asunto"></label>
+                    <input class="form__input" type="text" name="topic" id="asunto" placeholder="Asunto" required>
+
+                    <label for="mensaje"></label>
+                    <textarea class="form__textarea" name="description" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+
+                    <label class="form__checkboxLabel" for="condition">Acepto los terminos y condiciones</label>
+                    <input class="form__input" type="checkbox" name="mandatory" id="condition">
+            
+                    <div class="contenedor__buttons">
+                        <input class="botonEnviar" type="submit" value="ENVIAR">
+                        <input class="botonReset" type="reset" value="BORRAR DATOS">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="divFooter">
+            <div class="divFooter__redesSociales">
+                <a href=""><img class="redesSociales__img" src="../assets/facebook-icon.png" alt="Facebook"></a>
+                <a href=""><img class="redesSociales__img" src="../assets/instragram-icon.png" alt="Instagram"></a>
+                <a href=""><img class="redesSociales__img" src="../assets/twitter-icon.png" alt="Twitter"></a>
+            </div>
+            <div class="divFooter__preguntasContactoTerminos">
+                <ul class="preguntasContactoTerminos__list">
+                    <li class="preguntasContactoTerminos__item"><a class="preguntasContactoTerminos__link" href="preguntas.html">Preguntas frecuentes</a></li>
+                    <li class="preguntasContactoTerminos__item"><a class="preguntasContactoTerminos__link" href="contacto.html">Contacto</a></li>
+                    <li class="preguntasContactoTerminos__item"><a class="preguntasContactoTerminos__link" href="terminos.html">Terminos y condiciones</a></li>
+                </ul>
+            </div>
+            <div class="divFooter__appMovil">
+                <p class="appMovil__title">Descarga nuestra app</p>
+                    <div class="appMovil__divImagenes">
+                        <img class="appMovil__img" src="../assets/android-icon.png" alt="Android">
+                        <img class="appMovil__img" src="../assets/apple-icon.png" alt="Apple">
+                    </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

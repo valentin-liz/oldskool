@@ -1,0 +1,1227 @@
+/*BASE*/
+body {
+  background-color: gainsboro;
+  margin: 0;
+  padding: 0;
+}
+
+/*INDEX*/
+/*header*/
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.header__img {
+  height: 100px;
+  margin-left: 50px;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 50px;
+}
+
+.nav__item {
+  list-style: none;
+  display: inline;
+  padding: 15px;
+}
+
+.nav__link {
+  color: #292929;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.125rem;
+  -webkit-transition: font-size 0.2s;
+  transition: font-size 0.2s;
+}
+
+.nav__link:hover {
+  color: #646464;
+  font-size: 1.25rem;
+}
+
+/*sections*/
+.section__title {
+  color: #292929;
+  text-align: center;
+  font-family: 'Spline Sans', sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.188rem;
+  margin-top: 70px;
+}
+
+.section__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 70px;
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-bottom: 90px;
+}
+
+.card {
+  background-color: #f3f3f3;
+  border: 10px solid #f3f3f3;
+  border-radius: 7px;
+  margin: 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.733);
+          box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.733);
+}
+
+.card__img {
+  width: 250px;
+  height: 280px;
+  border-radius: 3px;
+}
+
+.card__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #292929;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.125rem;
+}
+
+.card__link:hover {
+  color: #838383;
+}
+
+/*footer*/
+footer {
+  width: 100%;
+  bottom: 0;
+}
+
+.divFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: grey;
+}
+
+.divFooter__redesSociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.redesSociales__img {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+}
+
+.preguntasContactoTerminos__list {
+  padding-left: 0px;
+}
+
+.preguntasContactoTerminos__item {
+  list-style: none;
+}
+
+.preguntasContactoTerminos__link {
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+}
+
+.preguntasContactoTerminos__link:hover {
+  color: #dddddd;
+}
+
+.appMovil__title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.appMovil__divImagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.appMovil__img {
+  width: 40px;
+  height: 40px;
+  padding-bottom: 10px;
+}
+
+/*PRODUCTOS*/
+/*header*/
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.header__img {
+  height: 100px;
+  margin-left: 50px;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 50px;
+}
+
+.nav__item {
+  list-style: none;
+  display: inline;
+  padding: 15px;
+}
+
+.nav__link {
+  color: #292929;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.125rem;
+  -webkit-transition: font-size 0.2s;
+  transition: font-size 0.2s;
+}
+
+.nav__link:hover {
+  color: #646464;
+  font-size: 1.25rem;
+}
+
+/*section*/
+.section__title {
+  color: #292929;
+  text-align: center;
+  font-family: 'Spline Sans', sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.188rem;
+  margin-top: 70px;
+}
+
+.section__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 70px;
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-bottom: 90px;
+}
+
+.card {
+  background-color: #f3f3f3;
+  border: 10px solid #f3f3f3;
+  border-radius: 7px;
+  margin: 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.733);
+          box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.733);
+}
+
+.card__img {
+  width: 250px;
+  height: 280px;
+  border-radius: 3px;
+}
+
+.card__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #292929;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.125rem;
+}
+
+.card__link:hover {
+  color: #838383;
+}
+
+/*footer*/
+footer {
+  width: 100%;
+  bottom: 0;
+}
+
+.divFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: grey;
+}
+
+.divFooter__redesSociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.redesSociales__img {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+}
+
+.preguntasContactoTerminos__list {
+  padding-left: 0px;
+}
+
+.preguntasContactoTerminos__item {
+  list-style: none;
+}
+
+.preguntasContactoTerminos__link {
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+}
+
+.preguntasContactoTerminos__link:hover {
+  color: #dddddd;
+}
+
+.appMovil__title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.appMovil__divImagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.appMovil__img {
+  width: 40px;
+  height: 40px;
+  padding-bottom: 10px;
+}
+
+/*NOSOTROS*/
+/*header*/
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.header__img {
+  height: 100px;
+  margin-left: 50px;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 50px;
+}
+
+.nav__item {
+  list-style: none;
+  display: inline;
+  padding: 15px;
+}
+
+.nav__link {
+  color: #292929;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.125rem;
+  -webkit-transition: font-size 0.2s;
+  transition: font-size 0.2s;
+}
+
+.nav__link:hover {
+  color: #646464;
+  font-size: 1.25rem;
+}
+
+/*section*/
+.contenedor__imagenNosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.imagenNosotros {
+  width: 80%;
+  height: 400px;
+  margin-top: 65px;
+}
+
+.section__subtituloNosotros {
+  color: #292929;
+  text-align: start;
+  font-family: 'Spline Sans', sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.188rem;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.contenedor__parrafoNosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.parrafoNosotros {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.04rem;
+  line-height: 28px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/*footer*/
+footer {
+  width: 100%;
+  bottom: 0;
+}
+
+.divFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: grey;
+}
+
+.divFooter__redesSociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.redesSociales__img {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+}
+
+.preguntasContactoTerminos__list {
+  padding-left: 0px;
+}
+
+.preguntasContactoTerminos__item {
+  list-style: none;
+}
+
+.preguntasContactoTerminos__link {
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+}
+
+.preguntasContactoTerminos__link:hover {
+  color: #dddddd;
+}
+
+.appMovil__title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.appMovil__divImagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.appMovil__img {
+  width: 40px;
+  height: 40px;
+  padding-bottom: 10px;
+}
+
+/*PREGUNTAS*/
+/*header*/
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.header__img {
+  height: 100px;
+  margin-left: 50px;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 50px;
+}
+
+.nav__item {
+  list-style: none;
+  display: inline;
+  padding: 15px;
+}
+
+.nav__link {
+  color: #292929;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.125rem;
+  -webkit-transition: font-size 0.2s;
+  transition: font-size 0.2s;
+}
+
+.nav__link:hover {
+  color: #646464;
+  font-size: 1.25rem;
+}
+
+/*section*/
+.section__subtituloPreguntas {
+  color: #292929;
+  text-align: center;
+  font-family: 'Spline Sans', sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.188rem;
+  margin-top: 70px;
+}
+
+.contenedor__preguntas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 100px;
+}
+
+.preguntas {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem;
+}
+
+.selector {
+  height: 35px;
+  border-radius: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.063rem;
+}
+
+/*footer*/
+footer {
+  width: 100%;
+  bottom: 0;
+}
+
+.divFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: grey;
+}
+
+.divFooter__redesSociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.redesSociales__img {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+}
+
+.preguntasContactoTerminos__list {
+  padding-left: 0px;
+}
+
+.preguntasContactoTerminos__item {
+  list-style: none;
+}
+
+.preguntasContactoTerminos__link {
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+}
+
+.preguntasContactoTerminos__link:hover {
+  color: #dddddd;
+}
+
+.appMovil__title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.appMovil__divImagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.appMovil__img {
+  width: 40px;
+  height: 40px;
+  padding-bottom: 10px;
+}
+
+/*MARCAS*/
+/*header*/
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.header__img {
+  height: 100px;
+  margin-left: 50px;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 50px;
+}
+
+.nav__item {
+  list-style: none;
+  display: inline;
+  padding: 15px;
+}
+
+.nav__link {
+  color: #292929;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.125rem;
+  -webkit-transition: font-size 0.2s;
+  transition: font-size 0.2s;
+}
+
+.nav__link:hover {
+  color: #646464;
+  font-size: 1.25rem;
+}
+
+/*section*/
+.section__title {
+  color: #292929;
+  text-align: center;
+  font-family: 'Spline Sans', sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.188rem;
+  margin-top: 70px;
+}
+
+.contenedor__imagenMarcas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.imagenMarcas {
+  width: 15%;
+  height: 15%;
+  padding: 50px;
+}
+
+/*footer*/
+footer {
+  width: 100%;
+  bottom: 0;
+}
+
+.divFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: grey;
+}
+
+.divFooter__redesSociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.redesSociales__img {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+}
+
+.preguntasContactoTerminos__list {
+  padding-left: 0px;
+}
+
+.preguntasContactoTerminos__item {
+  list-style: none;
+}
+
+.preguntasContactoTerminos__link {
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+}
+
+.preguntasContactoTerminos__link:hover {
+  color: #dddddd;
+}
+
+.appMovil__title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.appMovil__divImagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.appMovil__img {
+  width: 40px;
+  height: 40px;
+  padding-bottom: 10px;
+}
+
+/*CONTACTO*/
+/*header*/
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.header__img {
+  height: 100px;
+  margin-left: 50px;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 50px;
+}
+
+.nav__item {
+  list-style: none;
+  display: inline;
+  padding: 15px;
+}
+
+.nav__link {
+  color: #292929;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.125rem;
+  -webkit-transition: font-size 0.2s;
+  transition: font-size 0.2s;
+}
+
+.nav__link:hover {
+  color: #646464;
+  font-size: 1.25rem;
+}
+
+/*section*/
+.section__title {
+  color: #292929;
+  text-align: center;
+  font-family: 'Spline Sans', sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.188rem;
+  margin-top: 70px;
+}
+
+.contenedor__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 40px;
+}
+
+.form__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 4px;
+  width: 270px;
+  height: 25px;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+  color: #666666;
+}
+
+.form__textarea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4px;
+  width: 270px;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+}
+
+.form__checkboxLabel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+  color: #666666;
+}
+
+.contenedor__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.botonEnviar, .botonReset {
+  margin: 10px;
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+  color: #666666;
+}
+
+.botonEnviar:hover, .botonReset:hover {
+  background-color: white;
+}
+
+.botonReset {
+  width: 160px;
+}
+
+.botonReset:hover {
+  background-color: white;
+}
+
+/*footer*/
+footer {
+  width: 100%;
+  bottom: 0;
+}
+
+.divFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: grey;
+}
+
+.divFooter__redesSociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.redesSociales__img {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+}
+
+.preguntasContactoTerminos__list {
+  padding-left: 0px;
+}
+
+.preguntasContactoTerminos__item {
+  list-style: none;
+}
+
+.preguntasContactoTerminos__link {
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+}
+
+.preguntasContactoTerminos__link:hover {
+  color: #dddddd;
+}
+
+.appMovil__title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.appMovil__divImagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.appMovil__img {
+  width: 40px;
+  height: 40px;
+  padding-bottom: 10px;
+}
+
+/*TERMINOS*/
+/*header*/
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.header__img {
+  height: 100px;
+  margin-left: 50px;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 50px;
+}
+
+.nav__item {
+  list-style: none;
+  display: inline;
+  padding: 15px;
+}
+
+.nav__link {
+  color: #292929;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.125rem;
+  -webkit-transition: font-size 0.2s;
+  transition: font-size 0.2s;
+}
+
+.nav__link:hover {
+  color: #646464;
+  font-size: 1.25rem;
+}
+
+/*section*/
+.section__title {
+  color: #292929;
+  text-align: center;
+  font-family: 'Spline Sans', sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.188rem;
+  margin-top: 70px;
+}
+
+.section__subtituloTerminos {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem;
+  margin-left: 300px;
+  margin-top: 60px;
+}
+
+.section__parrafoTerminos {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.04rem;
+  line-height: 28px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+/*footer*/
+footer {
+  width: 100%;
+  bottom: 0;
+}
+
+.divFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: grey;
+}
+
+.divFooter__redesSociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.redesSociales__img {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+}
+
+.preguntasContactoTerminos__list {
+  padding-left: 0px;
+}
+
+.preguntasContactoTerminos__item {
+  list-style: none;
+}
+
+.preguntasContactoTerminos__link {
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+}
+
+.preguntasContactoTerminos__link:hover {
+  color: #dddddd;
+}
+
+.appMovil__title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.appMovil__divImagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.appMovil__img {
+  width: 40px;
+  height: 40px;
+  padding-bottom: 10px;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 768px) {
+  .section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1469px) {
+  .section__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+/*# sourceMappingURL=main.css.map */

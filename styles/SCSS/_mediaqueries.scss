@@ -1,0 +1,18 @@
+/*MEDIA QUERIES*/
+
+@media screen and (max-width:768px) {
+
+    .section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:1469px) {
+    .section__cards {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}
