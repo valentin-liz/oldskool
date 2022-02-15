@@ -1210,6 +1210,18 @@ footer {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .imagenNosotros {
+    width: 100%;
+    height: 200px;
+  }
+  .section__subtituloNosotros {
+    margin-left: 0;
+  }
+  .parrafoNosotros {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 @media screen and (max-width: 1469px) {
