@@ -52,22 +52,64 @@
 
 .contenedor__preguntas {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin-left: 300px;
     margin-right: 300px;
-    margin-bottom: 100px;
+    margin-bottom: 145px;
 }
 
-.preguntas {
+.acordeon__item .preguntas {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5rem;
 }
 
-.selector {
-    height: 35px;
-    border-radius: 5px;
+.acordeon__item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.acordeon__item input {
+    display: none;
+}
+
+.acordeon__item p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.063rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.acordeon__item label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.acordeon__title {
+    display: block;
+    padding: 15px;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid rgb(41, 41, 41);
+    border-radius: 5px;
+}
+
+.acordeon__title:hover {
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+.acordeon__content {
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.acordeon input:checked ~ .acordeon__content {
+    height: auto;
+    margin-bottom: 15px;
 }
 
 /*footer*/
