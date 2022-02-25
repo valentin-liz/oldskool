@@ -1333,4 +1333,11 @@ footer {
         flex-wrap: wrap;
   }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1069px) {
+  .section__cards {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
