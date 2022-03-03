@@ -5,7 +5,7 @@ body {
   padding: 0;
 }
 
-/*INDEX*/
+/*GENERAL*/
 /*header*/
 .header {
   display: -webkit-box;
@@ -62,6 +62,78 @@ body {
   display: none;
 }
 
+/*footer*/
+footer {
+  width: 100%;
+  bottom: 0;
+}
+
+.divFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: grey;
+}
+
+.divFooter__redesSociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.redesSociales__img {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+}
+
+.preguntasContactoTerminos__list {
+  padding-left: 0px;
+}
+
+.preguntasContactoTerminos__item {
+  list-style: none;
+}
+
+.preguntasContactoTerminos__link {
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+}
+
+.preguntasContactoTerminos__link:hover {
+  color: #dddddd;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.appMovil__title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.appMovil__divImagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.appMovil__img {
+  width: 40px;
+  height: 40px;
+  padding-bottom: 10px;
+}
+
+/*INDEX*/
 /*sections*/
 .section__title {
   color: #292929;
@@ -130,126 +202,7 @@ body {
   transition: all .2s;
 }
 
-/*footer*/
-footer {
-  width: 100%;
-  bottom: 0;
-}
-
-.divFooter {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-color: grey;
-}
-
-.divFooter__redesSociales {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.redesSociales__img {
-  width: 35px;
-  height: 35px;
-  padding: 10px;
-}
-
-.preguntasContactoTerminos__list {
-  padding-left: 0px;
-}
-
-.preguntasContactoTerminos__item {
-  list-style: none;
-}
-
-.preguntasContactoTerminos__link {
-  text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: black;
-}
-
-.preguntasContactoTerminos__link:hover {
-  color: #dddddd;
-  -webkit-transition: all .2s;
-  transition: all .2s;
-}
-
-.appMovil__title {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.appMovil__divImagenes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.appMovil__img {
-  width: 40px;
-  height: 40px;
-  padding-bottom: 10px;
-}
-
 /*PRODUCTOS*/
-/*header*/
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-top: 25px;
-}
-
-.header__img {
-  height: 100px;
-  margin-left: 50px;
-}
-
-.header__nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 50px;
-}
-
-.nav__item {
-  list-style: none;
-  display: inline;
-  padding: 15px;
-}
-
-.nav__link {
-  color: #292929;
-  text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 1.125rem;
-  -webkit-transition: font-size 0.2s;
-  transition: font-size 0.2s;
-}
-
-.nav__link:hover {
-  color: #646464;
-  font-size: 1.25rem;
-}
-
 /*section*/
 .section__title {
   color: #292929;
@@ -316,126 +269,7 @@ footer {
   color: #838383;
 }
 
-/*footer*/
-footer {
-  width: 100%;
-  bottom: 0;
-}
-
-.divFooter {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-color: grey;
-}
-
-.divFooter__redesSociales {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.redesSociales__img {
-  width: 35px;
-  height: 35px;
-  padding: 10px;
-}
-
-.preguntasContactoTerminos__list {
-  padding-left: 0px;
-}
-
-.preguntasContactoTerminos__item {
-  list-style: none;
-}
-
-.preguntasContactoTerminos__link {
-  text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: black;
-}
-
-.preguntasContactoTerminos__link:hover {
-  color: #dddddd;
-  -webkit-transition: all .2s;
-  transition: all .2s;
-}
-
-.appMovil__title {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.appMovil__divImagenes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.appMovil__img {
-  width: 40px;
-  height: 40px;
-  padding-bottom: 10px;
-}
-
 /*NOSOTROS*/
-/*header*/
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-top: 25px;
-}
-
-.header__img {
-  height: 100px;
-  margin-left: 50px;
-}
-
-.header__nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 50px;
-}
-
-.nav__item {
-  list-style: none;
-  display: inline;
-  padding: 15px;
-}
-
-.nav__link {
-  color: #292929;
-  text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 1.125rem;
-  -webkit-transition: font-size 0.2s;
-  transition: font-size 0.2s;
-}
-
-.nav__link:hover {
-  color: #646464;
-  font-size: 1.25rem;
-}
-
 /*section*/
 .contenedor__imagenNosotros {
   display: -webkit-box;
@@ -480,124 +314,7 @@ footer {
   margin-right: 200px;
 }
 
-/*footer*/
-footer {
-  width: 100%;
-  bottom: 0;
-}
-
-.divFooter {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-color: grey;
-}
-
-.divFooter__redesSociales {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.redesSociales__img {
-  width: 35px;
-  height: 35px;
-  padding: 10px;
-}
-
-.preguntasContactoTerminos__list {
-  padding-left: 0px;
-}
-
-.preguntasContactoTerminos__item {
-  list-style: none;
-}
-
-.preguntasContactoTerminos__link {
-  text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: black;
-}
-
-.preguntasContactoTerminos__link:hover {
-  color: #dddddd;
-}
-
-.appMovil__title {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.appMovil__divImagenes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.appMovil__img {
-  width: 40px;
-  height: 40px;
-  padding-bottom: 10px;
-}
-
 /*PREGUNTAS*/
-/*header*/
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-top: 25px;
-}
-
-.header__img {
-  height: 100px;
-  margin-left: 50px;
-}
-
-.header__nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 50px;
-}
-
-.nav__item {
-  list-style: none;
-  display: inline;
-  padding: 15px;
-}
-
-.nav__link {
-  color: #292929;
-  text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 1.125rem;
-  -webkit-transition: font-size 0.2s;
-  transition: font-size 0.2s;
-}
-
-.nav__link:hover {
-  color: #646464;
-  font-size: 1.25rem;
-}
-
 /*section*/
 .section__subtituloPreguntas {
   color: #292929;
@@ -676,124 +393,7 @@ footer {
   margin-bottom: 15px;
 }
 
-/*footer*/
-footer {
-  width: 100%;
-  bottom: 0;
-}
-
-.divFooter {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-color: grey;
-}
-
-.divFooter__redesSociales {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.redesSociales__img {
-  width: 35px;
-  height: 35px;
-  padding: 10px;
-}
-
-.preguntasContactoTerminos__list {
-  padding-left: 0px;
-}
-
-.preguntasContactoTerminos__item {
-  list-style: none;
-}
-
-.preguntasContactoTerminos__link {
-  text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: black;
-}
-
-.preguntasContactoTerminos__link:hover {
-  color: #dddddd;
-}
-
-.appMovil__title {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.appMovil__divImagenes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.appMovil__img {
-  width: 40px;
-  height: 40px;
-  padding-bottom: 10px;
-}
-
 /*MARCAS*/
-/*header*/
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-top: 25px;
-}
-
-.header__img {
-  height: 100px;
-  margin-left: 50px;
-}
-
-.header__nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 50px;
-}
-
-.nav__item {
-  list-style: none;
-  display: inline;
-  padding: 15px;
-}
-
-.nav__link {
-  color: #292929;
-  text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 1.125rem;
-  -webkit-transition: font-size 0.2s;
-  transition: font-size 0.2s;
-}
-
-.nav__link:hover {
-  color: #646464;
-  font-size: 1.25rem;
-}
-
 /*section*/
 .section__title {
   color: #292929;
@@ -828,124 +428,7 @@ footer {
   padding: 50px;
 }
 
-/*footer*/
-footer {
-  width: 100%;
-  bottom: 0;
-}
-
-.divFooter {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-color: grey;
-}
-
-.divFooter__redesSociales {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.redesSociales__img {
-  width: 35px;
-  height: 35px;
-  padding: 10px;
-}
-
-.preguntasContactoTerminos__list {
-  padding-left: 0px;
-}
-
-.preguntasContactoTerminos__item {
-  list-style: none;
-}
-
-.preguntasContactoTerminos__link {
-  text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: black;
-}
-
-.preguntasContactoTerminos__link:hover {
-  color: #dddddd;
-}
-
-.appMovil__title {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.appMovil__divImagenes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.appMovil__img {
-  width: 40px;
-  height: 40px;
-  padding-bottom: 10px;
-}
-
 /*CONTACTO*/
-/*header*/
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-top: 25px;
-}
-
-.header__img {
-  height: 100px;
-  margin-left: 50px;
-}
-
-.header__nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 50px;
-}
-
-.nav__item {
-  list-style: none;
-  display: inline;
-  padding: 15px;
-}
-
-.nav__link {
-  color: #292929;
-  text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 1.125rem;
-  -webkit-transition: font-size 0.2s;
-  transition: font-size 0.2s;
-}
-
-.nav__link:hover {
-  color: #646464;
-  font-size: 1.25rem;
-}
-
 /*section*/
 .section__title {
   color: #292929;
@@ -1046,124 +529,7 @@ footer {
   background-color: white;
 }
 
-/*footer*/
-footer {
-  width: 100%;
-  bottom: 0;
-}
-
-.divFooter {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-color: grey;
-}
-
-.divFooter__redesSociales {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.redesSociales__img {
-  width: 35px;
-  height: 35px;
-  padding: 10px;
-}
-
-.preguntasContactoTerminos__list {
-  padding-left: 0px;
-}
-
-.preguntasContactoTerminos__item {
-  list-style: none;
-}
-
-.preguntasContactoTerminos__link {
-  text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: black;
-}
-
-.preguntasContactoTerminos__link:hover {
-  color: #dddddd;
-}
-
-.appMovil__title {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.appMovil__divImagenes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.appMovil__img {
-  width: 40px;
-  height: 40px;
-  padding-bottom: 10px;
-}
-
 /*TERMINOS*/
-/*header*/
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-top: 25px;
-}
-
-.header__img {
-  height: 100px;
-  margin-left: 50px;
-}
-
-.header__nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 50px;
-}
-
-.nav__item {
-  list-style: none;
-  display: inline;
-  padding: 15px;
-}
-
-.nav__link {
-  color: #292929;
-  text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 1.125rem;
-  -webkit-transition: font-size 0.2s;
-  transition: font-size 0.2s;
-}
-
-.nav__link:hover {
-  color: #646464;
-  font-size: 1.25rem;
-}
-
 /*section*/
 .section__title {
   color: #292929;
@@ -1191,75 +557,6 @@ footer {
   line-height: 28px;
   margin-left: 300px;
   margin-right: 300px;
-}
-
-/*footer*/
-footer {
-  width: 100%;
-  bottom: 0;
-}
-
-.divFooter {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-color: grey;
-}
-
-.divFooter__redesSociales {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.redesSociales__img {
-  width: 35px;
-  height: 35px;
-  padding: 10px;
-}
-
-.preguntasContactoTerminos__list {
-  padding-left: 0px;
-}
-
-.preguntasContactoTerminos__item {
-  list-style: none;
-}
-
-.preguntasContactoTerminos__link {
-  text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: black;
-}
-
-.preguntasContactoTerminos__link:hover {
-  color: #dddddd;
-}
-
-.appMovil__title {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.appMovil__divImagenes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.appMovil__img {
-  width: 40px;
-  height: 40px;
-  padding-bottom: 10px;
 }
 
 /*MEDIA QUERIES*/
