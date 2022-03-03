@@ -450,6 +450,8 @@ footer {
   width: 80%;
   height: 400px;
   margin-top: 65px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .section__subtituloNosotros {
