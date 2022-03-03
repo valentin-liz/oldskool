@@ -194,12 +194,12 @@ footer {
   color: #292929;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.125rem;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 .card__link:hover {
   color: #838383;
-  -webkit-transition: all .2s;
-  transition: all .2s;
 }
 
 /*PRODUCTOS*/
@@ -373,6 +373,8 @@ footer {
   cursor: pointer;
   border: 1px solid #292929;
   border-radius: 5px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .acordeon__title:hover {
@@ -515,6 +517,8 @@ footer {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1rem;
   color: #666666;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 .botonEnviar:hover, .botonReset:hover {

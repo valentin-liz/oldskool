@@ -49,9 +49,9 @@
     color: rgb(41, 41, 41);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.125rem;
+    transition: all .2s;
 }
 
 .card__link:hover {
     color: rgb(131, 131, 131);
-    transition: all .2s;
 }
