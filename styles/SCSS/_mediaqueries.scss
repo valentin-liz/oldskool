@@ -153,3 +153,21 @@
         height: 80px;
     }
 }
+
+@media screen and (max-width:510px) {
+    .divFooter {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+    }
+
+    .divFooter__redesSociales {
+        margin-top: 20px;
+    }
+
+    .preguntasContactoTerminos__list {
+        text-align: center;
+    }
+}
