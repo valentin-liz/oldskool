@@ -712,7 +712,7 @@ footer {
   .bar-btn {
     display: block;
     font-size: 30px;
-    margin-right: 25px;
+    margin-right: 40px;
     cursor: pointer;
     -webkit-transition: all .4s;
     transition: all .4s;
