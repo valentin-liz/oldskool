@@ -1,5 +1,29 @@
 /*MEDIA QUERIES*/
 
+@media screen and (max-width:450px) {
+    .header__img {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .divFooter {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+    }
+
+    .divFooter__redesSociales {
+        margin-top: 20px;
+    }
+
+    .preguntasContactoTerminos__list {
+        text-align: center;
+    }
+}
+
 @media screen and (max-width:768px) {
 
     .section {
@@ -68,21 +92,6 @@
     }
 }
 
-@media screen and (max-width:1469px) {
-    .section__cards {
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-    }
-}
-
-@media screen and (min-width:769px) and (max-width:1069px) {
-    .section__cards {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-}
-
 @media screen and (max-width:911px) {
     .header__img {
         margin-left: 20px;
@@ -148,26 +157,17 @@
     }
 }
 
-@media screen and (max-width:450px) {
-    .header__img {
-        height: 80px;
+@media screen and (min-width:769px) and (max-width:1069px) {
+    .section__cards {
+        margin-left: 100px;
+        margin-right: 100px;
     }
 }
 
-@media screen and (max-width:510px) {
-    .divFooter {
+@media screen and (max-width:1469px) {
+    .section__cards {
         display: flex;
-        flex-direction: column;
+        justify-content: space-evenly;
         flex-wrap: wrap;
-        align-content: center;
-        align-items: center;
-    }
-
-    .divFooter__redesSociales {
-        margin-top: 20px;
-    }
-
-    .preguntasContactoTerminos__list {
-        text-align: center;
     }
 }
