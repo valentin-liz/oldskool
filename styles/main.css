@@ -712,11 +712,17 @@ footer {
   .bar-btn {
     display: block;
     font-size: 30px;
-    margin-right: 10px;
+    margin-right: 25px;
     cursor: pointer;
+    -webkit-transition: all .4s;
+    transition: all .4s;
   }
   #check {
     display: none;
+  }
+  #check:checked ~ .bar-btn {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
   }
   #check:checked ~ .nav__list {
     height: 35vh;

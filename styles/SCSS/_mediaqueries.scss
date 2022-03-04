@@ -126,14 +126,19 @@
     .bar-btn {
         display: block;
         font-size: 30px;
-        margin-right: 10px;
+        margin-right: 25px;
         cursor: pointer;
+        transition: all .4s;
     }
     
     #check {
         display: none;
     }
-    
+
+    #check:checked ~ .bar-btn {
+        transform: rotate(90deg);
+    }
+
     #check:checked ~ .nav__list {
         height: 35vh;
     }
