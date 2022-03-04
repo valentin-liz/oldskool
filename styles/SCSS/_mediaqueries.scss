@@ -85,7 +85,7 @@
 
 @media screen and (max-width:911px) {
     .header__img {
-        margin-left: 10px;
+        margin-left: 20px;
     }
     .header__nav {
         display: flex;
@@ -145,5 +145,11 @@
     
     #check:checked ~ .nav__list li {
         display: block;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .header__img {
+        height: 80px;
     }
 }
