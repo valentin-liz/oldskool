@@ -725,7 +725,7 @@ footer {
             transform: rotate(90deg);
   }
   #check:checked ~ .nav__list {
-    height: 35vh;
+    height: 40vh;
   }
   #check:checked ~ .nav__list li {
     display: block;
