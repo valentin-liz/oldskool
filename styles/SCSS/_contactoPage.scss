@@ -53,6 +53,10 @@
     color: rgb(102, 102, 102);
 }
 
+#condition {
+    cursor: pointer;
+}
+
 .contenedor__buttons {
     display: flex;
     flex-direction: column;
@@ -69,6 +73,7 @@
     font-size: 1rem;
     color: rgb(102, 102, 102);
     transition: all .2s;
+    cursor: pointer;
 }
 
 .botonEnviar:hover {
